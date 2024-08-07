@@ -15,25 +15,19 @@
   --background: #f3f6f8;
   --foreground: #343a40;
   --foreground-light: #8a93a0;
-  --foreground-dark: #000000;
+  --foreground-dark: #000;
   --background-medium: #dadfe4;
-  --background-dark: #333333;
+  --background-dark: #333;
   --accent: #ee5600;
-
-  --footer-background: #333333;
+  --footer-background: #333;
   --footer-foreground: #bcbcbc;
-
   --button-dark: #454b54;
-  --button-gradient: linear-gradient(
-    126deg,
-    rgb(255, 210, 0) 0%,
-    rgb(247, 151, 30) 100%
-  );
+  --button-gradient: linear-gradient(126deg, rgb(255 210 0) 0%, rgb(247 151 30) 100%);
 
   /* fonts */
-  --body-font-family: "Poppins", roboto, roboto-fallback;
+  --body-font-family: poppins, roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: "Poppins", "Roboto Mono", menlo, consolas;
+  --fixed-font-family: poppins, 'Roboto Mono', menlo, consolas;
 }
 
 body {
