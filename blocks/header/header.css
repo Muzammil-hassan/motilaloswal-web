@@ -1,3 +1,76 @@
 .header {
-  background: red;
+  /* background: transparent; */
+  border: none;
+  padding: 15px 0;
+  box-shadow: none;
+  background-color: #f8f9fa;
+}
+.layout .header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header nav .default-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header nav .default-content-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header nav .default-content-wrapper ul li {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+.header nav .default-content-wrapper ul li:hover {
+  color: #343a40;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header nav .nav-hamburger {
+  display: none;
+}
+
+.header nav .nav-sections .default-content-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header nav .nav-sections .default-content-wrapper ul :first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #000 !important;
+  align-items: center;
+  border-radius: 4px;
+  border: unset;
+  text-transform: uppercase !important;
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(144deg, #ffd200 40.85%, #f7971e 98.66%);
+}
+.header nav .nav-sections .default-content-wrapper ul :last-child {
+  color: white !important;
+  align-items: center;
+  border-radius: 4px;
+  border: unset;
+  text-transform: uppercase !important;
+  font-size: 12px;
+  font-weight: 600;
+  background: black;
 }
