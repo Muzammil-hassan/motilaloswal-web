@@ -4,7 +4,6 @@ footer {
   font-size: var(--body-font-size-s);  
   background-color: #333;
   color: white;
-  text-align: center;
   padding: 10px 0;
   position: absolute;
   width: 100%;
@@ -17,5 +16,11 @@ footer .footer {
 }
 
 footer .footer p {
-  margin: 0;
+  /* margin: 0; */
+  color: #BCBCBC;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+footer .footer ul{
+  color: #8A93A0
 }
