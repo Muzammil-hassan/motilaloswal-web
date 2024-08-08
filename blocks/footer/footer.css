@@ -7,13 +7,23 @@ footer {
   padding: 10px 0;
   position: absolute;
   width: 100%;
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 footer .footer {
   max-width: 1200px;
   margin: auto;
 }
+
+.footer > div{
+  display: flex;
+  justify-content:space-between;
+}
+
+.footer > div .section{
+  max-width: 30%;
+}
+
 
 footer .footer p {
   /* margin: 0; */
@@ -22,5 +32,8 @@ footer .footer p {
   font-family: sans-serif;
 }
 footer .footer ul{
-  color: #8A93A0
+  color: #8A93A0;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
