@@ -16,12 +16,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .header nav .default-content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .header nav .default-content-wrapper ul {
   display: flex;
@@ -29,6 +31,7 @@
   gap: 2px;
   padding-left: 10px;
   padding-right: 10px;
+  flex-wrap: wrap;
 }
 .header nav .default-content-wrapper ul li {
   display: flex;
