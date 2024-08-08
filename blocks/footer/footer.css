@@ -9,7 +9,7 @@ footer {
   /* bottom: 0; */
 }
 
-footer .footer {
+.footer {
   max-width: 1200px;
   margin: auto;
 }
@@ -24,13 +24,13 @@ footer .footer {
   max-width: 30%;
 }
 
-footer .footer p {
+.footer > div > .section .default-content-wrapper p {
   color: var(--footer-foreground);
   font-size: 16px;
   font-family: var(--body-font-family);
-  font-weight:600;
+  font-weight: 600;
 }
-footer .footer ul {
+.footer > div > .section .default-content-wrapper ul {
   color: var(--foreground-light);
   gap: 10px;
   display: flex;
@@ -38,7 +38,7 @@ footer .footer ul {
   font-family: var(--body-font-family);
 }
 
-footer .footer ul li a{
+.footer > div > .section .default-content-wrapper ul li a {
   color: var(--foreground-light);
   font-family: var(--body-font-family);
 }
