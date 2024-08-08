@@ -1,12 +1,11 @@
 footer {
-  padding: 2rem;
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);  
-  background-color: #333;
+  font-size: var(--body-font-size-s);
+  background-color: var(--background-dark);
   color: white;
   padding: 10px 0;
   position: absolute;
   width: 100%;
+
   /* bottom: 0; */
 }
 
@@ -15,25 +14,23 @@ footer .footer {
   margin: auto;
 }
 
-.footer > div{
+.footer > div {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.footer > div .section{
+.footer > div .section {
   max-width: 30%;
 }
 
-
 footer .footer p {
-  /* margin: 0; */
-  color: #BCBCBC;
+  color: var(--footer-foreground);
   font-size: 16px;
   font-family: sans-serif;
 }
-footer .footer ul{
-  color: #8A93A0;
+footer .footer ul {
+  color: var(--foreground-light);
   gap: 10px;
   display: flex;
   flex-direction: column;
