@@ -42,3 +42,77 @@ footer {
   color: var(--foreground-light);
   font-family: var(--body-font-family);
 }
+.footer > div >  .section:nth-of-type(6){
+  max-width: 100% !important;
+ 
+}
+
+.footer > div >  .section:nth-of-type(6) .default-content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.footer > div >  .section:nth-of-type(6) .default-content-wrapper ul{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer > div >  .section:nth-of-type(6) .default-content-wrapper ul li{
+  border-right: 1px solid;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+
+.footer > div >  .section:nth-of-type(7){
+  max-width: 100% !important;
+ 
+}
+
+.footer > div >  .section:nth-of-type(7) .default-content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 123px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.footer > div >  .section:nth-of-type(7) .default-content-wrapper ul{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer > div >  .section:nth-of-type(7) .default-content-wrapper ul li{
+  border-right: 1px solid;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+.footer > div >  .section:nth-of-type(8){
+  max-width: 100% !important;
+ padding: 10px 0 10px 0;
+}
+
+.footer > div >  .section:nth-of-type(9){
+  max-width: 100% !important;
+ padding: 10px 0 10px 0;
+ border-top: 1px solid #454B54;
+ width: 100%;
+}
+.footer > div >  .section:nth-of-type(10){
+  max-width: 100% !important;
+ padding: 10px 0 10px 0;
+ border-top: 1px solid #454B54;
+ width: 100%;
+}
+.footer > div >  .section:nth-of-type(11){
+  max-width: 100% !important;
+ padding: 10px 0 10px 0;
+ border-top: 1px solid #454B54;
+ width: 100%;
+}
