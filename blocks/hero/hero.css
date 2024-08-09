@@ -45,6 +45,11 @@ main .hero-container {
   line-height: 1.2;
   font-weight: 600;
   font-family: var(--body-font-family);
+  font-style: normal;
+}
+
+.hero > div > div h1 em{
+  font-style: normal;
 }
 
 #simplify-stock-investments {
@@ -77,49 +82,9 @@ main > .section:nth-child(2) .default-content-wrapper h2 {
 
 main > .section:nth-child(2) .default-content-wrapper h2 :first-child {
   color: #8a93a0;
+  font-style: normal;
 }
 
-main
-  > .section:nth-child(2)
-  .carousel-wrapper
-  .carousel
-  .carousel-slides-container
-  .carousel-slide-image {
-  display: flex;
-  gap: 20px;
-}
-
-main
-  > .section:nth-child(2)
-  .carousel-wrapper
-  .carousel
-  .carousel-slides-container
-  .carousel-slide-image
-  p {
-  width: 235px;
-  box-shadow: none;
-  margin-bottom: 0;
-  min-height: 120px;
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  text-align: center;
-  justify-content: center;
-  border-radius: 8px;
-  background: var(
-    --secondary-colors-gradient-light-grey,
-    linear-gradient(119deg, #fff 0%, #e8e8e8 100%)
-  );
-}
-
-main
-  > .section:nth-child(2)
-  .carousel-wrapper
-  .carousel
-  .carousel-slides-container
-  .carousel-slides {
-  margin-left: 155px;
-}
 
 main > .section:nth-child(3) {
   width: 70%;
@@ -128,81 +93,9 @@ main > .section:nth-child(3) {
 main > .section:nth-child(3) h2 { text-align: center;}
 main > .section:nth-child(3) .default-content-wrapper h2 :first-child {
   color: #8a93a0;
+  font-style: normal;
 }
 
-main > .section:nth-child(3) .cards-wrapper .cards ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
-
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body {
-  border-radius: 8px;
-  background: #FFF;
-  box-shadow: 0px 10px 30px 0px rgba(112, 144, 176, 0.15);
-  padding: 24px;
-  /* flex: 0 0 44%; */
-  margin-right: inherit;
-  margin-left: inherit;
-  margin-bottom: 24px;
-  position: relative;
-}
-
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body h3 strong{
-  border-radius: 4px;
-  border: 1px solid #F5C361;
-  background: #FFE9BD;
-  color: #A36A00;
-  padding: 2px 4px;
-  font-size: 12px;
-  font-family: var(--body-font-family);
-  position: absolute;
-  left: 20rem;
-  top:25px;
-}
-
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body h3 em{
-  margin-top: 0;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: var(--body-font-family);
-  color:#8A93A0;
-}
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body h3{
-  margin-bottom: 0;
-  font-size: 18px;
-  line-height: 1.2;
-  font-family: var(--body-font-family);
-  color: #454B54;
-  font-weight: 600;
-}
-
-/* #hanasa-cons,#hanasa-cons-1{
-  margin-bottom: 0;
-  font-size: 18px;
-  line-height: 1.2;
-  font-family: var(--body-font-family);
-  color: #454B54;
-  font-weight: 600;
-  
-}
-#honasa,#honasa-1{
-  margin-top: 0;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: var(--body-font-family);
-  color:#8A93A0;
-} */
-
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body p strong {
-  position: absolute;
-  top: 100px;
-  right: 38px;
-  color:#049C2E;
-}
-main > .section:nth-child(3) .cards-wrapper .cards ul li > .cards-card-body p em {
-  color:#049C2E;
-}
 
 #top-gainer,#top-gainer-1,#honasa,#honasa-1{
   margin: 0;
