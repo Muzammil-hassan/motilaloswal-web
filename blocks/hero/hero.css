@@ -8,6 +8,7 @@ main .hero-container > div {
 
 main .hero-container {
   padding: 0;
+  padding-top: 100px;
 }
 
 .hero {
