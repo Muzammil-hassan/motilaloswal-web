@@ -1,20 +1,15 @@
-main {
-  padding: 0 70px 0 70px;
-  background: #f6f7f8;
-}
-main .hero-container > div {
-  max-width: unset;
-}
-
-main .hero-container {
+.hero-container {
   padding: 0;
   padding-top: 100px;
 }
 
+.hero-container > div {
+  max-width: unset;
+}
+
 .hero {
   position: relative;
-  padding: 32px 32px 32px 0;
-  min-height: 300px;
+  padding: 32px 32px 0px 0px;
 }
 
 .hero h1 {
@@ -23,7 +18,6 @@ main .hero-container {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  /* color: red; */
 }
 
 .hero picture {
@@ -45,181 +39,18 @@ main .hero-container {
   line-height: 1.2;
   font-weight: 600;
   font-family: var(--body-font-family);
-  font-style: normal;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.hero > div > div h1 em{
-  font-style: normal;
-}
-
-#simplify-stock-investments {
-  color: #8a93a0;
-}
-
-main > .section:nth-child(1) .hero-wrapper .hero > div > div ul {
-  color: #8a93a0;
+.hero ul {
+  color: var(--foreground-light);
   font-size: 16px;
   font-weight: 400;
-  font-family: var(--body-font-family);
-  display: flex;
-  gap: 10px;
-}
-
-main > .section:nth-child(1) .hero-wrapper .hero > div > div ul li {
-  min-width: 26%;
-}
-
-main > .section:nth-child(2) {
-  width: 70%;
-  text-align: center;
-}
-
-main > .section:nth-child(2) .default-content-wrapper h2 {
-  font-size: 32px;
-  font-weight: 600;
-  font-family: var(--body-font-family);
-}
-
-main > .section:nth-child(2) .default-content-wrapper h2 :first-child {
-  color: #8a93a0;
-  font-style: normal;
-}
-
-
-main > .section:nth-child(3) {
-  width: 70%;
-  padding-top: 100px;
-}
-main > .section:nth-child(3) h2 { text-align: center;}
-main > .section:nth-child(3) .default-content-wrapper h2 :first-child {
-  color: #8a93a0;
-  font-style: normal;
-}
-
-
-#top-gainer,#top-gainer-1,#honasa,#honasa-1{
+  display: grid;
+  padding-top: 1.5rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 0;
+  gap: 1rem;
 }
-
-main > .section:nth-child(3) .default-content-wrapper p{
-  display: flex;
-  justify-content: center;
-}
-main > .section:nth-child(3) .default-content-wrapper p a {
-  border-radius: 4px;
-  background: linear-gradient(126deg, #FFD200 0%, #F7971E 100%);
-  box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.30);
-  padding: 15px 55px 15px 40px;
-  border: none;
-  height: auto;
-  text-transform: uppercase;
-    width: 120px;
-    height: 10px;
-    align-items: center;
-    display: flex;
-    color: black;
-    text-wrap: nowrap;
-    justify-content: center;
-}
-
-main > .section:nth-child(4) .default-content-wrapper  {
-  text-align: center;
-  width: 70%;
-  padding-top: 100px;
-}
-
-main > .section:nth-child(4) .default-content-wrapper h2 strong em {
-font-size: 32px;
-font-weight: 600;
-font-family: var(--body-font-family);
-color:#8A93A0;
-font-style: normal;
-}
-main > .section:nth-child(4) .default-content-wrapper h2 {
-  margin: 0;
-  font-size: 32px;
-  font-family: var(--body-font-family);
-}
-
-main > .section:nth-child(4) .default-content-wrapper p{
-  color: #8A93A0 !important;
-    margin: 0;
-    font-size: 16px;
-    font-family: var(--body-font-family);
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-main > .section:nth-child(5) .default-content-wrapper{
-  width: 70%;
-  padding-top: 70px;
-}
-
-main > .section:nth-child(5) .default-content-wrapper h2{
-  text-align: center;
-  margin: 0;
-  font-size: 32px;
-font-weight: 600;
-font-family: var(--body-font-family);
-font-style: normal !important;
-}
-
-main > .section:nth-child(5) .default-content-wrapper h2 strong em{
-  font-style: normal !important;
-  color:#8A93A0;
-}
-
-main > .section:nth-child(5) .default-content-wrapper ul li{
-  color: #454B54;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: var(--body-font-family);
-  margin-bottom: 20px;
-}
-
-  main > .section:nth-child(5) .default-content-wrapper ul li ul li{
-    color: #8A93A0 !important;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: var(--body-font-family);
-  }
-
-  main > .section:nth-child(6) .default-content-wrapper{
-    width: 70%;
-    padding-top: 70px;
-  }
-
-  main > .section:nth-child(6) .default-content-wrapper h2{
-    text-align: center;
-    margin: 0;
-    font-size: 32px;
-    font-weight: 600;
-    font-family: var(--body-font-family);
-    font-style: normal !important;
-  }
-  main > .section:nth-child(6) .default-content-wrapper h2 strong em{
-    font-style: normal !important;
-    color:#8A93A0;
-  }
-
-  main > .section:nth-child(6) .default-content-wrapper > ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    justify-content: center;
-  }
-  main > .section:nth-child(6) .default-content-wrapper > ul li{
-   margin-top: 20px;
-   color: #454B54;
-   font-size: 16px;
-   font-family: var(--body-font-family);
-   font-weight: 500;
-  }
-
-  main > .section:nth-child(6) .default-content-wrapper > ul li > ul li{
-    font-size: 16px;
-    color: #8A93A0 !important;
-    font-weight:400;
-    margin-bottom: 15px;
-    font-family: var(--body-font-family);
-  }
