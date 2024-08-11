@@ -23,12 +23,16 @@
   --footer-foreground: #bcbcbc;
   --button-dark: #454b54;
   --color-yellow: #f59f00;
-  --button-gradient: linear-gradient(126deg, rgb(255 210 0) 0%, rgb(247 151 30) 100%);
+  --button-gradient: linear-gradient(
+    126deg,
+    rgb(255 210 0) 0%,
+    rgb(247 151 30) 100%
+  );
 
   /* fonts */
   --body-font-family: poppins, roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: poppins, 'Roboto Mono', menlo, consolas;
+  --fixed-font-family: poppins, "Roboto Mono", menlo, consolas;
 }
 
 body {
@@ -36,6 +40,51 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: var(--body-font-family);
+}
+
+main {
+  padding: 0 70px 0 70px;
+  background: #fff;
+}
+
+main .section {
+  width: 70%;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+h1 > em,
+h2 > em {
+  color: var(--foreground-light);
+  font-style: normal;
+}
+
+main > .section:nth-child(4),
+main > .section:nth-child(5),
+main > .section:nth-child(6) {
+  color: var(--foreground-light);
+}
+
+main > .section:nth-child(4) p,
+main > .section:nth-child(5) p,
+main > .section:nth-child(6) p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+main > .section:nth-child(4) h3,
+main > .section:nth-child(5) h3,
+main > .section:nth-child(6) h3 {
+  font-weight: 600;
+  margin: 0;
+  color: var(--button-dark);
+  font-size: 1rem;
 }
 
 ul {
