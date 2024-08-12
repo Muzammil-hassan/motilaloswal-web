@@ -23,6 +23,7 @@
   --footer-foreground: #bcbcbc;
   --button-dark: #454b54;
   --color-yellow: #f59f00;
+  --color-green: #049c2e;
   --button-gradient: linear-gradient(
     126deg,
     rgb(255 210 0) 0%,
@@ -44,7 +45,7 @@ body {
 
 main {
   padding: 0 70px 0 70px;
-  background: #fff;
+  background: var(--background);
 }
 
 main .section {
