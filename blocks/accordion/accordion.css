@@ -76,11 +76,13 @@
   color:var( --foreground-light);
   font-size: 14px;
   font-family: var(--body-font-family);
+  font-weight: 400;
 }
 .accordion details[open] .accordion-item-body p a{
   color:var(--accent);
   font-size: 14px;
   font-family: var(--body-font-family);
+  font-weight: 400;
 }
 
 .accordion details[open] .accordion-item-body ol{
@@ -88,6 +90,7 @@
   font-size: 14px;
   font-family: var(--body-font-family);
   padding-left: 26px;
+  font-weight: 400;
 }
 
 .accordion details ol {
@@ -96,7 +99,7 @@
   padding: 0.8em;
   color:var(--button-dark);
   font-family: var(--body-font-family);
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
   
 }
