@@ -99,6 +99,41 @@ footer {
  padding: 10px 0 10px 0;
 }
 
+.footer > div > .section:nth-of-type(8) .default-content-wrapper ul {
+  color: var(--foreground-light);
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: var(--body-font-family);
+}
+.footer > div > .section:nth-of-type(9) .default-content-wrapper ul {
+  color: var(--foreground-light);
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: var(--body-font-family);
+}
+.footer > div > .section:nth-of-type(10) .default-content-wrapper ul {
+  color: var(--foreground-light);
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: var(--body-font-family);
+}
+.footer > div > .section:nth-of-type(11) .default-content-wrapper ul {
+  color: var(--foreground-light);
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: var(--body-font-family);
+}
+
+
+
 .footer > div >  .section:nth-of-type(9){
   max-width: 100% !important;
  padding: 10px 0 10px 0;
@@ -117,3 +152,4 @@ footer {
  border-top: 1px solid #454B54;
  width: 100%;
 }
+
