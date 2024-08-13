@@ -1,0 +1,72 @@
+.columns > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns img {
+  width: 100%;
+}
+
+.columns > div > div {
+  order: 1;
+}
+
+.columns > div > .columns-img-col {
+  order: 0;
+}
+
+.columns > div > .columns-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 32px;
+  }
+
+  .columns > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
+
+.columns-1-cols {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 4rem;
+  gap: 1.5rem 0;
+}
+
+.columns-1-cols ul {
+  list-style-type: disc;
+  padding-left: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.875rem;
+}
+.infogrid-container {
+  color: var(--foreground-light);
+}
+.infogrid-container p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.infogrid-container a {
+  color: var(--color-yellow);
+}
+
+.infogrid h3 {
+  font-weight: 600;
+  margin: 0;
+  color: var(--button-dark);
+  font-size: 1rem;
+}
+
+.infogrid-container h2 > em {
+  display: block;
+}

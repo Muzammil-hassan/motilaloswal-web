@@ -1,0 +1,22 @@
+.info-container {
+  color: var(--foreground-light);
+}
+.info-container p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.info-container a {
+  color: var(--color-yellow);
+}
+
+.info h3 {
+  font-weight: 600;
+  margin: 0;
+  color: var(--button-dark);
+  font-size: 1rem;
+}
+
+.info-container h2 > em {
+  display: block;
+}
