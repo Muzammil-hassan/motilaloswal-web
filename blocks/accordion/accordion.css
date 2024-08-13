@@ -1,14 +1,26 @@
 .accordion details {
-  border: 1px solid #dadada;
+  border: 1px solid var(--color-border);
+  background-color:var(--color-white);
+  border-bottom: none;
 }
-
+.accordion-wrapper{
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 1px;
+}
 /* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
-  margin-top: 24px;
+  /* margin-top: 24px; */
 }
 
 .accordion details p {
-  margin-bottom: 0.8em;
+  /* margin-bottom: 0.8em; */
+  margin: 0;
+  padding:15px;
+  color: var(--button-dark);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  
 }
 
 .accordion details summary {
@@ -56,6 +68,35 @@
 }
 
 .accordion details[open] .accordion-item-body {
-  border-top: 1px solid #dadada;
+  border-top: 1px solid  var(--color-yellow);
   background-color: var(--background-color);
+}
+
+.accordion details[open] .accordion-item-body p{
+  color:var( --foreground-light);
+  font-size: 14px;
+  font-family: var(--body-font-family);
+}
+.accordion details[open] .accordion-item-body p a{
+  color:var(--accent);
+  font-size: 14px;
+  font-family: var(--body-font-family);
+}
+
+.accordion details[open] .accordion-item-body ol{
+  color:var( --foreground-light);
+  font-size: 14px;
+  font-family: var(--body-font-family);
+  padding-left: 26px;
+}
+
+.accordion details ol {
+  /* margin-bottom: 0.8em; */
+  margin: 0;
+  padding: 0.8em;
+  color:var(--button-dark);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  
 }
