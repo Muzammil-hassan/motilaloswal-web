@@ -68,24 +68,56 @@ h2 > em {
 
 main > .section:nth-child(4),
 main > .section:nth-child(5),
-main > .section:nth-child(6) {
+main > .section:nth-child(6),
+main > .section:nth-child(7),
+main > .section:nth-child(8),
+main > .section:nth-child(9),
+main > .section:nth-child(10) {
   color: var(--foreground-light);
 }
 
 main > .section:nth-child(4) p,
 main > .section:nth-child(5) p,
-main > .section:nth-child(6) p {
+main > .section:nth-child(6) p,
+main > .section:nth-child(7) p,
+main > .section:nth-child(8) p,
+main > .section:nth-child(9) p,
+main > .section:nth-child(10) p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+main > .section:nth-child(4) a,
+main > .section:nth-child(5) a,
+main > .section:nth-child(6) a,
+main > .section:nth-child(7) a,
+main > .section:nth-child(8) a,
+main > .section:nth-child(9) a,
+main > .section:nth-child(10) a {
+  color: var(--color-yellow);
+}
+
 main > .section:nth-child(4) h3,
 main > .section:nth-child(5) h3,
-main > .section:nth-child(6) h3 {
+main > .section:nth-child(6) h3,
+main > .section:nth-child(7) h3,
+main > .section:nth-child(8) h3,
+main > .section:nth-child(9) h3,
+main > .section:nth-child(10) h3 {
   font-weight: 600;
   margin: 0;
   color: var(--button-dark);
   font-size: 1rem;
+}
+
+main > .section:nth-child(4) h2 > em,
+main > .section:nth-child(5) h2 > em,
+main > .section:nth-child(6) h2 > em,
+main > .section:nth-child(7) h2 > em,
+main > .section:nth-child(8) h2 > em,
+main > .section:nth-child(9) h2 > em,
+main > .section:nth-child(10) h2 > em {
+  display: block;
 }
 
 ul {
