@@ -32,9 +32,10 @@ footer {
 }
 .footer > div > .section .default-content-wrapper ul {
   color: var(--foreground-light);
-  gap: 10px;
+  gap: 5px;
   display: flex;
   flex-direction: column;
+  font-size: 14px;
   font-family: var(--body-font-family);
 }
 
