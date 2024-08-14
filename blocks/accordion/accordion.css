@@ -1,26 +1,21 @@
 .accordion details {
   border: 1px solid var(--color-border);
-  background-color:var(--color-white);
+  background-color: var(--color-white);
   border-bottom: none;
 }
-.accordion-wrapper{
+.accordion-wrapper {
   border-bottom: 1px solid var(--color-border);
   border-radius: 1px;
-}
-/* stylelint-disable-next-line no-descending-specificity */
-.accordion details + details {
-  /* margin-top: 24px; */
 }
 
 .accordion details p {
   /* margin-bottom: 0.8em; */
   margin: 0;
-  padding:15px;
+  padding: 15px;
   color: var(--button-dark);
   font-family: var(--body-font-family);
   font-size: 16px;
   font-weight: 600;
-  
 }
 
 .accordion details summary {
@@ -68,25 +63,25 @@
 }
 
 .accordion details[open] .accordion-item-body {
-  border-top: 1px solid  var(--color-yellow);
+  border-top: 1px solid var(--color-yellow);
   background-color: var(--background-color);
 }
 
-.accordion details[open] .accordion-item-body p{
-  color:var( --foreground-light);
+.accordion details[open] .accordion-item-body p {
+  color: var(--foreground-light);
   font-size: 14px;
   font-family: var(--body-font-family);
   font-weight: 400;
 }
-.accordion details[open] .accordion-item-body p a{
-  color:var(--accent);
+.accordion details[open] .accordion-item-body p a {
+  color: var(--accent);
   font-size: 14px;
   font-family: var(--body-font-family);
   font-weight: 400;
 }
 
-.accordion details[open] .accordion-item-body ol{
-  color:var( --foreground-light);
+.accordion details[open] .accordion-item-body ol {
+  color: var(--foreground-light);
   font-size: 14px;
   font-family: var(--body-font-family);
   padding-left: 26px;
@@ -97,11 +92,18 @@
   /* margin-bottom: 0.8em; */
   margin: 0;
   padding: 0.8em;
-  color:var(--button-dark);
+  color: var(--button-dark);
   font-family: var(--body-font-family);
   font-size: 14px;
   font-weight: 400;
-  
+}
+
+.accordion-container .button-container a {
+  color: var(--accent);
+  text-transform: uppercase !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  float: right;
 }
 
 .accordion .default-content-wrapper p a{
