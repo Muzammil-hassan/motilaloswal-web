@@ -158,3 +158,15 @@ footer {
  width: 100%;
 }
 
+.footer > div > .section:nth-of-type(8) .default-content-wrapper ul li a {
+  color: var(--accent);
+}
+.footer > div > .section:nth-of-type(9) .default-content-wrapper ul li a {
+  color: var(--accent);
+}
+.footer > div > .section:nth-of-type(10) .default-content-wrapper ul li a {
+  color: var(--accent);
+}
+.footer > div > .section:nth-of-type(11) .default-content-wrapper ul li a {
+  color: var(--accent);
+}
