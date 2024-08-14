@@ -103,3 +103,8 @@
   font-weight: 400;
   
 }
+
+.accordion .default-content-wrapper p a{
+  float: right;
+  color: var(--accent);
+}
