@@ -12,6 +12,7 @@ footer {
 .footer {
   max-width: 1200px;
   margin: auto;
+  padding-top: 40px;
 }
 
 .footer > div {
@@ -106,6 +107,7 @@ footer {
   flex-direction: column;
   font-size: 10px;
   font-family: var(--body-font-family);
+  line-height: 20px;
 }
 .footer > div > .section:nth-of-type(9) .default-content-wrapper ul {
   color: var(--foreground-light);
@@ -114,6 +116,7 @@ footer {
   flex-direction: column;
   font-size: 10px;
   font-family: var(--body-font-family);
+  line-height: 20px;
 }
 .footer > div > .section:nth-of-type(10) .default-content-wrapper ul {
   color: var(--foreground-light);
@@ -122,6 +125,7 @@ footer {
   flex-direction: column;
   font-size: 10px;
   font-family: var(--body-font-family);
+  line-height: 20px;
 }
 .footer > div > .section:nth-of-type(11) .default-content-wrapper ul {
   color: var(--foreground-light);
@@ -130,6 +134,7 @@ footer {
   flex-direction: column;
   font-size: 10px;
   font-family: var(--body-font-family);
+  line-height: 20px;
 }
 
 
