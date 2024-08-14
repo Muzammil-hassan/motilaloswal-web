@@ -1,5 +1,8 @@
 .form-container{
-    padding: 28px 20px 36px 20px
+    padding: 28px 20px 36px 20px;
+    position: fixed;
+    top: 202px;
+    right: -460px;
 }
 
 .form-container> .form-wrapper{
@@ -10,7 +13,7 @@
     top: 20px;
     /* float: right; */
     /* right: -112px; */
-    width: 50% !important;
+    width: 38% !important;
 
 }
 
