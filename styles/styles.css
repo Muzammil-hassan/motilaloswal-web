@@ -36,6 +36,9 @@
   --body-font-family: poppins, roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: poppins, "Roboto Mono", menlo, consolas;
+
+  /* Container */
+  --container-width: 90vw;
 }
 
 body {
@@ -44,7 +47,6 @@ body {
   overflow-x: hidden;
   font-family: var(--body-font-family);
   background: var(--background);
-
 }
 
 main {
@@ -53,7 +55,7 @@ main {
 
 main .section {
   width: 65%;
-  padding:0 0 80px 0;
+  padding: 0 0 80px 0;
 }
 
 h2 {
@@ -78,4 +80,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+main {
+  max-width: var(--container-width);
+  margin: auto;
+}
+
+.form-container {
+  display: none;
 }

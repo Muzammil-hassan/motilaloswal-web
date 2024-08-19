@@ -1,3 +1,6 @@
+.header p {
+  margin: 0 !important;
+}
 .header-wrapper {
   position: -webkit-sticky;
   position: sticky;
@@ -9,14 +12,19 @@
 
 .header {
   border: none;
-  padding: 15px 0;
   box-shadow: none;
+}
+
+.nav-wrapper {
+  max-width: var(--container-width);
+  margin: auto;
+  padding: 1rem 0;
 }
 
 .header nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -28,11 +36,9 @@
 }
 .header nav .default-content-wrapper ul {
   display: flex;
+  margin: 0;
+  padding-left: 1rem;
   justify-content: space-between;
-  gap: 2px;
-  padding-left: 10px;
-  padding-right: 10px;
-  flex-wrap: wrap;
 }
 .header nav .default-content-wrapper ul :last-child {
   color: var(--color-yellow);
