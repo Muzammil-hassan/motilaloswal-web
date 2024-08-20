@@ -16,8 +16,6 @@
 }
 
 .nav-wrapper {
-  max-width: var(--container-width);
-  margin: auto;
   padding: 1rem 0;
 }
 

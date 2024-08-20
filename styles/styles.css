@@ -38,7 +38,7 @@
   --fixed-font-family: poppins, "Roboto Mono", menlo, consolas;
 
   /* Container */
-  --container-width: 90vw;
+  --section-width: 65%;
 }
 
 body {
@@ -53,8 +53,24 @@ main {
   padding: 0 70px 0 70px;
 }
 
+@media (min-width: 1440px) {
+  main,
+  .nav-wrapper {
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  main,
+  .nav-wrapper {
+    margin: auto;
+    width: 90vw;
+  }
+}
+
 main .section {
-  width: 65%;
+  width: var(--section-width);
   padding: 0 0 80px 0;
 }
 
@@ -80,11 +96,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-main {
-  max-width: var(--container-width);
-  margin: auto;
 }
 
 .form-container {
