@@ -9,10 +9,15 @@
 
 .hero {
   position: relative;
-  padding: 5px 32px 0px 0px;
+  padding: 0;
+  padding-top: 5px;
 }
 
 .hero .icon {
+  display: inline-block;
+}
+
+.hero .icon-home {
   display: inline-block;
   width: 0.75rem;
   height: 0.75rem;
@@ -20,6 +25,7 @@
 
 .hero p:first-child {
   color: var(--foreground-light);
+  margin: 0;
   font-weight: 300;
   font-size: 0.875rem;
   display: inline-flex;
@@ -65,6 +71,7 @@
 }
 
 .hero ul {
+  width: 100%;
   color: var(--foreground-light);
   font-size: 16px;
   font-weight: 400;
@@ -72,7 +79,12 @@
   padding-top: 1.5rem;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
   margin: 0;
-  gap: 1.5rem;
-  width: 90%;
+}
+
+.hero li {
+  display: inline-flex;
+  gap: 0.75rem;
+  align-items: center;
 }

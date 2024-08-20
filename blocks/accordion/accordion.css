@@ -104,9 +104,17 @@
   font-size: 0.875rem;
   font-weight: 600;
   float: right;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.accordion .default-content-wrapper p a{
+.accordion-container .icon-long-arrow-right {
+  color: var(--accent);
+  width: 1rem;
+  height: 1.2rem;
+}
+.accordion .default-content-wrapper p a {
   float: right;
   color: var(--accent);
 }
