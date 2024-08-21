@@ -18,6 +18,7 @@
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   overflow: scroll clip;
+  margin: 0 5rem;
 }
 
 .carousel .carousel-slides::-webkit-scrollbar {
@@ -177,8 +178,4 @@
     --secondary-colors-gradient-light-grey,
     linear-gradient(119deg, #fff 0%, #e8e8e8 100%)
   );
-}
-
-.carousel .carousel-slides {
-  margin: 0 5rem;
 }

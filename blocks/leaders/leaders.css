@@ -8,6 +8,14 @@
 .leaders-container h2 em {
   display: block;
 }
+
+.leaders > div {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  gap: 1rem;
+}
+
 .leaders > div:nth-child(odd) {
   align-self: flex-start;
 }
@@ -25,13 +33,6 @@
   color: var(--foreground-light);
 }
 
-.leaders > div {
-  display: flex;
-  align-items: center;
-  width: 45%;
-  gap: 1rem;
-}
-
 .leaders-container .button-container {
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@
   padding: 0.25rem 2.5rem;
   border-radius: 4px;
   background: var(--button-gradient);
-  box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.3);
+  box-shadow: 0 16px 40px 0 rgba(112 144 176 30%);
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;

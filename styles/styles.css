@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --color-white: #ffffff;
+  --color-white: #fff;
   --background: #f3f6f8;
   --foreground: #343a40;
   --foreground-light: #8a93a0;
@@ -50,7 +50,7 @@ body {
 }
 
 main {
-  padding: 0 70px 0 70px;
+  padding: 0 70px;
 }
 
 @media (min-width: 1440px) {
@@ -71,7 +71,7 @@ main {
 
 main .section {
   width: var(--section-width);
-  padding: 0 0 80px 0;
+  padding: 0 0 80px;
 }
 
 h2 {

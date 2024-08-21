@@ -73,30 +73,6 @@
   font-family: var(--body-font-family);
   font-weight: 400;
 }
-.accordion details[open] .accordion-item-body p a {
-  color: var(--accent);
-  font-size: 14px;
-  font-family: var(--body-font-family);
-  font-weight: 400;
-}
-
-.accordion details[open] .accordion-item-body ol {
-  color: var(--foreground-light);
-  font-size: 14px;
-  font-family: var(--body-font-family);
-  padding-left: 26px;
-  font-weight: 400;
-}
-
-.accordion details ol {
-  /* margin-bottom: 0.8em; */
-  margin: 0;
-  padding: 0.8em;
-  color: var(--button-dark);
-  font-family: var(--body-font-family);
-  font-size: 14px;
-  font-weight: 400;
-}
 
 .accordion-container .button-container a {
   color: var(--accent);
@@ -109,12 +85,37 @@
   gap: 0.5rem;
 }
 
+.accordion .default-content-wrapper p a {
+  float: right;
+  color: var(--accent);
+}
+
+.accordion details[open] .accordion-item-body p a {
+  color: var(--accent);
+  font-size: 14px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+}
+
+.accordion details ol {
+  margin: 0;
+  padding: 0.8em;
+  color: var(--button-dark);
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.accordion details[open] .accordion-item-body ol {
+  color: var(--foreground-light);
+  font-size: 14px;
+  font-family: var(--body-font-family);
+  padding-left: 26px;
+  font-weight: 400;
+}
+
 .accordion-container .icon-long-arrow-right {
   color: var(--accent);
   width: 1rem;
   height: 1.2rem;
-}
-.accordion .default-content-wrapper p a {
-  float: right;
-  color: var(--accent);
 }

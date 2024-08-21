@@ -1,8 +1,8 @@
+/*
 .form-container {
   padding: 0 !important;
   width: 35% !important;
   position: absolute;
-  /*right: 100vw - var(--container-width);*/
   right: 0;
   top: 0;
 }
@@ -11,8 +11,6 @@
   background: linear-gradient(166.38deg, #333 54.09%, #262626 90.25%);
   border-radius: 14px;
   padding: 20px !important;
-  /* float: right; */
-  /* right: -112px; */
 }
 
 .form-container > .form-wrapper > .form > div > div h3 {
@@ -65,4 +63,4 @@
   font-style: normal;
   font-weight: 600;
 }
-
+*/
