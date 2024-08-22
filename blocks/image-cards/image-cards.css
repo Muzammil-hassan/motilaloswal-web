@@ -1,0 +1,38 @@
+.image-cards-container  h2  em {
+    display: block;
+}
+
+.image-cards-container .image-cards ul{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    /* padding-bottom: 4rem; */
+    gap: 2rem;
+    padding-top: 2rem;
+} 
+
+.image-cards-container .image-cards ul li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px 20px 20px 20px;
+    background: var(--secondary-colors-gradient-light-grey, linear-gradient(119deg, #FFF 0%, #E8E8E8 100%));
+    box-shadow: 0px 16px 32px 0px rgba(112, 144, 176, 0.15), 4px 4px 12px 0px rgba(30, 51, 72, 0.15);
+}
+
+.image-cards-container .image-cards ul li p , h3{
+    margin: 0;
+}
+.image-cards-container .image-cards ul li p em{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--body-font-family);
+    font-style: normal;
+    color: var(--foreground-light);
+    
+}
+
+.image-cards-container .image-cards ul li:last-child{
+    margin-top: 10px;
+}
