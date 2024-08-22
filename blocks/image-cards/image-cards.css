@@ -17,7 +17,7 @@
     border-radius: 8px;
     padding: 20px;
     background: var(--secondary-colors-gradient-light-grey, linear-gradient(119deg, #FFF 0%, #E8E8E8 100%));
-    box-shadow: 0 16px 32px 0 rgba(112 144 176 15), 4px 4px 12px 0 rgba(30 51 72 15);
+    box-shadow: 0 16px 32px 0 rgba(112, 144, 176, 15), 4px 4px 12px 0 rgba(30, 51, 72, 15);
 }
 .image-cards-container .image-cards ul li h3{
     font-size: 18px;
