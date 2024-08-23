@@ -10,7 +10,7 @@
   border-radius: 0.25rem;
   background: white;
   padding: 1.5rem;
-  box-shadow: 0 10px 30px 0 rgba(112 144 176 15%);
+  box-shadow: 0 16px 48px 0 rgb(112 144 176 / .3), 4px 4px 12px 0 rgb(30 51 72 / .15);
 }
 
 .cards-container .cards-card-body > * {
