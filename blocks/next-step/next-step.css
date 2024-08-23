@@ -3,3 +3,32 @@
   height: 2rem;
   display: inline-block;
 }
+
+.next-step-wrapper .next-step ul{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.next-step-wrapper .next-step ul li{
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: linear-gradient(119deg, #FFF 0%, #E8E8E8 100%);
+  box-shadow: 0px 16px 48px 0px rgba(112, 144, 176, 0.30), 4px 4px 12px 0px rgba(30, 51, 72, 0.15);
+  padding: 15px;
+}
+
+.next-step-wrapper .next-step ul li .cards-card-body p strong{
+font-size: 20px;
+font-family: var(--body-font-family);
+font-weight: 600;
+color:var(--foreground);
+}
+
+.next-step-wrapper .next-step ul li .cards-card-body p, p a{
+margin: 0;
+float: right;
+}
