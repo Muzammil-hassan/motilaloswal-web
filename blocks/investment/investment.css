@@ -1,0 +1,32 @@
+.investment-container .investment-wrapper .investment > div{
+    display: grid;
+    justify-content: center !important;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 70% 30%;
+    /* gap: 2rem; */
+    padding-top: 2rem;
+    text-align: center;
+  background-image: radial-gradient(#FFD200 0%, #fcd967 0%,  #f3f6f8 50%);
+}
+
+.investment-container .investment-wrapper .investment > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px 0px 25px 25px;
+}
+.investment-container .investment-wrapper .investment > div > div p{
+    margin: 0px;
+    margin-top: 20px;
+}
+.investment-container .investment-wrapper .investment > div > div h3{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--body-font-family);
+    margin-top: 20px;
+}
+.investment-container .investment-wrapper .investment > div > div p strong{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--body-font-family);
+}
