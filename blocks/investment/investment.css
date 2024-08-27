@@ -20,13 +20,26 @@
     margin-top: 20px;
 }
 .investment-container .investment-wrapper .investment > div > div h3{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
     font-family: var(--body-font-family);
     margin-top: 20px;
+    padding-inline: 40px;
+    color:var(--foreground);
 }
 .investment-container .investment-wrapper .investment > div > div p strong{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     font-family: var(--body-font-family);
+}
+.investment-container .investment-wrapper .investment > div > div ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    padding-inline: 70px;
+    font-size: 12px;
+    font-family: var(--body-font-family);
+    list-style: disc;
+    color:var(--foreground);
 }
